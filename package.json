@@ -1,0 +1,21 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "simple webserver",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "salam:and:start": "echo salam; node main.js",
+    "test": "exit 1"
+  },
+  "keywords": [
+    "express",
+    "webserver"
+  ],
+  "author": "Imani",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1"
+  }
+}
